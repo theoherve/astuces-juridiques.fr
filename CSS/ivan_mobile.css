@@ -1,0 +1,681 @@
+
+#body_inscription, #body_inscription main{
+  width: 100vw;
+}
+#body_inscription #div_connexion, #body_inscription #div_inscription{
+  padding: 2vw;
+  width: 100vw;
+}
+footer{
+  width: 100vw;
+}
+#inscription_connexion_3_div{
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+#body_inscription a{
+  font-size: 4vw;
+
+}
+
+#body_inscription{
+
+}
+#botom_form_singup{
+  padding-top: 0;
+}
+
+#div_inscription_cgu{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+#div_button{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+#body_inscription .form-check-input{
+  margin-top: 0;
+  margin-right: 2vw;
+  margin-left: 0;
+  height: 4vw;
+  width: 4vw;
+}
+#body_inscription .form-row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+#div_inscription_connexion_barre{
+  width: 95%;
+  border: 0.075vw solid #304771;
+  background-color: #304771;
+      height: 0.5vw;
+}
+
+#body_inscription h3{
+  text-align: center;
+  font-size: 7vw;
+}
+#body_inscription .form-control{
+    height: 11vw;
+    margin: 2vw;
+    font-size: 4vw;
+    border-radius: 2vw;
+    cursor: default;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+#body_inscription .selectForm{
+  width: 100%;
+}
+#body_inscription .btn-block{
+  width: 100%;
+  font-size: 4vw;
+  background-color: #3BA1E4;
+  border-color: #3BA1E4;
+  margin-bottom: 5vw;
+}
+.g-recaptcha{
+  display: relative;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+#body_inscription .form-check{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vw;
+  align-items: center;
+}
+.inscription_checkbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      padding-right: 4vw;
+
+}
+#body_inscription .form-group{
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#body_inscription div_inscription_cgu a {
+  color: #3BA1E4;
+  font-size: 4vw;
+}
+#div_remember_me{
+  margin-bottom: 0;
+}
+#body_inscription .form-check-label{
+  font-size: 4vw;
+}
+
+#body_inscription .col{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#div_inscription select {
+  color:#CECDCD;
+  background:rgba(255,255,255,1) url('../pictures/3907.png');
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: right;
+  background-position: 90%;
+  background-repeat: no-repeat;
+  -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+#div_inscription select:invalid,
+#div_inscription select option[value=""] {
+  color:#CECDCD;
+}
+
+
+
+#div_connexion input[type=text]::placeholder{
+font-family: 'Quicksand';
+color: #CECDCD;
+text-align: justify;
+}
+#div_connexion input[type=email]::placeholder{
+font-family: 'Quicksand';
+color: #CECDCD;
+text-align: justify;
+
+}
+#div_connexion input[type=password]::placeholder{
+font-family: 'Quicksand';
+color: #CECDCD;
+text-align: justify;
+}
+#div_inscription input[type=text]::placeholder{
+font-family: 'Quicksand';
+color: #CECDCD;
+top: 0.20vw;
+}
+#div_inscription input[type=email]::placeholder{
+font-family: 'Quicksand';
+color: #CECDCD;
+top: 0.20vw;
+}
+#t_mail{
+
+}
+#div_inscription input[type=password]::placeholder{
+font-family: 'Quicksand';
+color: #CECDCD;
+top: 0.20vw;
+}
+
+/*search*/
+
+.searchBar{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 70vw;
+  height: 9vw;
+  border-radius: 2vw;
+  justify-content: flex-start;
+  text-align: center;
+}
+.searchBar input{
+  background: url(../pictures/nav/research.svg);
+  background-repeat: no-repeat;
+  background-size: 5vw;
+  height: 9vw;
+  font-size: 4vw;
+  background-position: calc(100% - 10px) center;
+  background-repeat: no-repeat;
+  /* width: auto; */
+  border-radius: 2vw;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  line-height : 0;
+}
+.searchBar input::placeholder{
+  color: #cecdcd;
+  margin-top: 1vw;
+  vertical-align: middle;
+  font-size: 4vw;
+}
+#result-search-mobile{
+  display: none;
+  position: absolute;
+  top: 26vw;
+  width: 70vw;
+}
+input::-webkit-input-placeholder {
+     line-height:normal!important;
+}
+.researchResult{
+  border-bottom: 1px solid black;
+  background-color: white;
+  font-size: 4vw;
+  margin-left: 0.2vw;
+  text-align: center;
+  font-family: 'EQPro-Regular';
+}
+.researchResult:hover{
+  background-color: #E9E3D3;
+  cursor: pointer;
+  color: #3ba1e4;
+  transition: .3 ease;
+}
+.researchResult:hover a{
+  background-color: #E9E3D3;
+  cursor: pointer;
+  text-decoration: none;
+  color: #3ba1e4;
+  transition: .3 ease;
+}
+
+.researchResult a{
+  color: black;
+  font-size: 4vw;
+
+  font-family: 'EQPro-Regular';
+}
+
+.researchResult a:hover{
+  text-decoration: none;
+  background-color: #E9E3D3;
+  color: #3ba1e4;
+  font-family: 'EQPro-Regular';
+}
+
+.researchResultTitle{
+  color: white;
+  margin-left: 0.2vw;
+  text-align: center;
+  font-size: 4vw;
+  background-color:#304771;
+  font-weight: lighter;
+}
+.researchResultZero{
+  color: black;
+  margin-top: 20px 0;
+  margin-left: 0.2vw;
+  font-size: 4vw;
+  text-align: center;
+  background-color:white;
+  font-weight: lighter;
+}
+
+.container-cookie-consent {
+    -webkit-font-smoothing: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10vw 0;
+    z-index: 19;
+    transition: all 0.25s ease-in-out;
+    background: #304771;
+    box-shadow: 0px 4px 13px 0px rgba(57,57,57,0.38);
+    text-align: center;
+    max-width: none !important;
+}
+.container-cookie-consent .cookie-text {
+    font-size: 5vw;
+    color: white;
+}
+.container-cookie-consent a{
+    font-size: 5vw;
+    color: white;
+}
+.container-cookie-consent a.button-accept-cookies {
+    border-radius: 5px;
+    padding: 0.7vw 1vw;
+    font-size: 4vw;
+    color: #E9E3D3;
+    background-color: #3BA1E4;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+    border: 1px solid #3BA1E4;
+    text-decoration: none;
+    line-height: 2vw;
+    margin-left: 1vw;
+}
+.container-cookie-consent a.button-accept-cookies:hover {
+    cursor: pointer;
+}
+
+
+/*lawyer page */
+.lawyerText p{
+  margin-bottom: 0px;
+}
+.lawyerText #last_p_lawyer{
+  margin-bottom: 10vw;
+  margin-top: 5vw;
+}
+.lawyerText img{
+  margin:0;
+ }
+.lawyerImput1{
+  margin: 3vw;
+  width: 85vw;
+  height: 10vw;
+  border-radius: 2vw;
+  padding-left: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+#div_lawyer_3{
+  display: flex;
+  margin-left: 8vw;
+  flex-direction: column;
+  justify-content: center;
+
+}
+#div_lawyer_3 h2{
+  font-size: 6vw;
+  margin-top: 5vw;
+}
+#div_lawyer_5{
+  display:flex;
+  margin-left: 8vw;
+  flex-direction: column;
+  justify-content: center;
+  width: 85vw;
+}
+#div_lawyer_5 h2{
+  font-size: 6vw;
+  margin-left: 0;
+  padding-left: 0;
+  width: 90vw;
+}
+.lawyer_info_div{
+  width: 100%;
+}
+.imputFull{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 2vw;
+}
+.imputFull p{
+  font-size: 5vw;
+  margin: 0;
+}
+.imputFull a{
+  text-decoration: none;
+  color:black;
+}
+.imputFull a:hover{
+  text-decoration: underline;
+  color:#3BA1E4;
+}
+.imputFull [type="checkbox"]{
+  margin-right: 2vw;
+  height: 4vw;
+  width: 4vw;
+  background: #000;
+
+}
+#imputFullCGU{
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 2vw;
+  font-size: 4vw;
+}
+#imputFullCGU a{
+  text-decoration: none;
+  font-size: 1em;
+  color:black;
+}
+#imputFullCGU a:hover{
+  text-decoration: underline;
+  color:#3BA1E4;
+}
+#imputFullCGU [type="checkbox"]{
+  margin-right: 2vw;
+  height: 4vw;
+  width: 4vw;
+  background: #000;
+}
+#ILawyerButton{
+  width: 25%;
+  font-size: 4vw;
+  color: white;
+  background-color: #3BA1E4;
+  border-radius: 4vw;
+  border-color: #3BA1E4;
+  margin-top: 1vw;
+  padding: 2vw;
+  margin-bottom: 5vw;
+}
+.lawyerImput2{
+  padding: 1vw;
+  width: 80vw;
+  height: 9vw;
+  border-radius: 2vw;
+  font-size: 3.5vw;
+}
+
+#lawyerImput2Box{
+  width: 80vw;
+  height: 5vh;
+  border-radius: 2vw;
+}
+
+.lawyer_info_div{
+  margin-top: 10px;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-between;
+}
+#div_terms{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+#secondHalfOfScreen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#secondChildDiv{
+  width: 85vw;
+  margin-top: 2vw;
+  margin-bottom:  2vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1vw;
+  background-color: #304771;
+}
+
+#lawyerPic1{
+  width: 20vw;
+  margin: 0px;
+  margin-bottom: 5vw;
+  height: auto;
+}
+#lawyerPic2{
+  margin: 0px;
+  width: 19vw;
+  margin-bottom: 5vw;
+  height: auto;
+}
+#lawyerPic3{
+  margin: 0px;
+  width: 20vw;
+  margin-bottom: 5vw;
+  height: auto;
+}
+
+#ThirdChildDiv{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+#ThirdChildDiv p{
+  font-size: 5vw;
+
+}
+.rightContent{
+  margin-top: 5vw;
+}
+/* gerer mon profil */
+#modifProfil{
+  display: flex;
+  flex-direction: column;
+  margin: 5% 10% 5% 10%;
+  padding: 2%;
+  /* border: 3px solid #d7d1c2; */
+  justify-content: space-between;
+}
+
+#modalClient form>input, form>textarea {
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    border: none;
+    font-size: 2vh;
+    padding: 0.4em;
+}
+
+#modifProfil input option label{
+  font-family: 'Quicksand';
+}
+
+#modifProfil form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+#modifProfil form>div{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+#modifProfil form>center{
+  margin-bottom: 1em;
+}
+
+#modifProfil form>div>input, #modifProfil form>div>select{
+  /* justify-content: center;
+  align-items: center; */
+  -webkit-appearance: none;
+  height: 7vw;
+  width: 47%;
+  font-size: 2vh;
+  border-radius: 10px;
+  border: none;
+  padding: 0.4em;
+  outline: none;
+  /* margin-bottom: 0.5em; */
+}
+
+#modifProfil form>input{
+  width: 100%;
+  font-size: 2vh;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  border: none;
+  padding: 0.4em
+}
+
+.modifProfilButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vh;
+  background-color: #3BA1E4;
+  width: 100%;
+  /* height: 2vw; */
+  padding: 0.4em;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  margin-bottom: 2vw;
+}
+
+.barProfil{
+  /* height: 100%; */
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  border-top: 2.5px solid #304771;
+}
+
+.publicProfile{
+  margin: 2% 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.publicProfile img{
+  max-height: 300px;
+  max-width: 240px;
+}
+
+.publicProfile>div{
+  margin-bottom: 2em;
+}
+
+.publicProfile>div[name="desc"]{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#pdp{
+  max-height: 400px;
+  max-width: 300px;
+  border-radius: 7px;
+  align-items: center;
+}
+
+.profilePicture{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.profilePicture label{
+  margin-bottom: 2vw;
+  font-size: 2vh;
+}
+.profilePicture .form-control-file{
+  margin-bottom: 2vw;
+  font-size: 2vh;
+}
+#file-upload-button{
+  margin-right: 2vw;
+}
+.profilePicture img{
+  max-height: 80vw;
+  display: block;
+  max-width: 80vw;
+  align-self: center;
+  margin-bottom: 2vw;
+}
+
+#modifProfil form>div>input[name='newsletter']{
+  width: auto;
+}
+
+.profilCheckbox>input{
+  width: auto;
+}
+
+#message_pseudo{
+  position: absolute;
+  font-size:1.8vw;
+  color: green;
+  top: 14vw;
+  left: 1vw;
+}
+#message_mdp{
+  position: absolute;
+  font-size:1.8vw;
+  color: red;
+  top: 24vw;
+  left: 1vw;
+}
+#message_first_name{
+  position: absolute;
+  font-size:1.8vw;
+  color: red;
+  top: 14vw;
+  left: 1vw;
+}
+#message_family_name{
+  position: absolute;
+  font-size:1.8vw;
+  color: red;
+  top: 14vw;
+  left: 1vw;
+}
